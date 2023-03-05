@@ -1,0 +1,49 @@
+.overview {
+	width: 100%;
+	padding: 1.875rem;
+
+	&__top {
+		background-color: #f7f7f7;
+		border-left: 2px solid #4665f1;
+		padding-left: 1.875rem;
+		margin-bottom: 3.75rem;
+
+		&-title {
+			margin: 0;
+		}
+	}
+
+	&__btm {
+		background-color: #f7f7f7;
+		border-left: 2px solid #4665f1;
+		padding-left: 1.875rem;
+		margin-bottom: 3.75rem;
+
+		&-title {
+			margin: 0;
+		}
+	}
+
+	&__details {
+		display: grid;
+		width: 100%;
+		// gap: 30px;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 20px 20px;
+
+		&__location {
+			display: flex;
+			width: 2.625rem;
+			gap: 20px;
+		}
+		&__industry {
+			display: flex;
+			width: 2.625rem;
+			gap: 20px;
+		}
+		&__di {
+			display: flex;
+			gap: 20px;
+		}
+	}
+}

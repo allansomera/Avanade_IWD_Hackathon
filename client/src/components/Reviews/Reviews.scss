@@ -1,0 +1,90 @@
+.reviews {
+	width: 100%;
+	padding: 1.875rem;
+	background-color: #f7f7f7;
+
+	&__top {
+		border-left: 2px solid #4665f1;
+		padding-left: 1.875rem;
+		margin-bottom: 3.75rem;
+
+		&-title {
+			margin: 0;
+		}
+
+		&__content {
+			display: flex;
+			gap: 10px;
+		}
+	}
+
+	&__rating {
+		&-iconlist {
+			list-style: none;
+			padding: 0;
+			display: flex;
+		}
+	}
+
+	&__cardList {
+		width: 1005;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 50px 50px;
+
+		&-item {
+			background-color: #fdfdfd;
+			border: 1px solid #d9d9d9;
+			border-radius: 0.625rem;
+			padding: 2.5rem;
+
+			&--desc {
+				font-size: 1.375rem;
+				width: 17.9375rem;
+			}
+
+			&--rating {
+				display: flex;
+				gap: 20px;
+			}
+		}
+	}
+
+	&__employee {
+		margin-top: 3.125rem;
+		background-color: #fdfdfd;
+		border: 1px solid #d9d9d9;
+		border-radius: 0.625rem;
+		padding: 2.5rem;
+
+		&-rating {
+			display: flex;
+			gap: 20px;
+		}
+
+		&-cta {
+			display: flex;
+			justify-content: right;
+			&--btn {
+				background-color: #4665f1;
+				color: #fdfdfd;
+				width: 14.125rem;
+				height: 3.75rem;
+				padding: 0.9375rem 1.25rem;
+			}
+		}
+	}
+}
+
+.star__icon {
+	height: 1.3313rem;
+	width: 1.3313rem;
+	filter: invert(100%) sepia(21%) saturate(0%) hue-rotate(113deg) brightness(90%) contrast(93%);
+
+	&-filled {
+		height: 1.3313rem;
+		width: 1.3313rem;
+		filter: invert(54%) sepia(30%) saturate(1474%) hue-rotate(332deg) brightness(102%)
+			contrast(101%);
+	}
+}
