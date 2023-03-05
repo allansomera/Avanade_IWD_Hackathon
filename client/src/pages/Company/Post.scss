@@ -1,0 +1,98 @@
+.post{
+    padding-top: 20px;
+    width: 100%;
+    background-color: #d9d9d9;
+    // padding-left: 96px;
+    // padding-right: 96px;
+    &__header{
+        border: 3px solid transparent;
+        border-left-color: #4666f1;
+        // margin-top: 24px;
+        margin-left: 30px;
+        padding-left: 24px;
+        font-weight: 700;
+    }
+    &__post-con{
+        padding: 30px;
+        background-color: #d9d9d9;
+    }
+    &__content{
+        margin-bottom: 20px;
+        padding: 30px;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+    }
+    &__category-con {
+        display: inline-block;
+        background-color: #fbf6b9;
+    }
+    &__category {
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #fbf6b9;
+    }
+    &__current-emp{
+        margin-top: 16px;
+        font-style: italic;
+    }
+    &__jobtitle-con{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+    &__jobtitle{
+        font-weight: 600;
+        font-style: italic;
+    }
+    &__title{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__data{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    &__metrics-con{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+    &__likes-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    &__likes-icon{
+        padding-right: 12px;
+    }
+    &__dislikes-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    &__dislikes-icon{
+        padding-right: 12px;
+    }
+    &__replies-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    &__replies-icon{
+        padding-right: 12px;
+    }
+    &__readmore-con{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 40px;
+        // width: 100%;
+    }
+    &__readmore-btn{
+        width: 145px;
+        background-color: #4666f1;
+        color: white;
+        font-weight: 600;
+    }
+    
+
+}

@@ -1,19 +1,12 @@
 .company{
-
     &__navbar{
-        padding-left: 16px;
+        padding-left: 30px;
     }
-
-    &__navbar-item {
+    &__nav-item {
         padding-right: 16px;
     }
-
-    &__navbar-item > a {
-        color: inherit;
-        text-decoration: inherit;
-    }
 }
 
-.nav-link.active {
-    text-decoration: underline;
-}
+// .nav-link.active {
+//     text-decoration: underline;
+// }
