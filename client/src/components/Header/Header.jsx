@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
 
 import './Header.scss';
 
@@ -11,15 +10,7 @@ function Header() {
         <div className="header__username">Username</div>
       </div>
       <div className="header__search-con">
-        <input
-          type="text"
-          className="header__search-input"
-          name="name"
-          required
-          minlength="4"
-          maxlength="8"
-          size="10"
-        />
+        <input type="text" className="header__search-input" name="name" />
       </div>
       <div className="header__right-con">
         <div className="header__notify1"></div>

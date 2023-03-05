@@ -1,9 +1,12 @@
 import './Home.scss';
-import React, { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import Menu from '../../components/Menu/Menu';
+import MenuContent from '../../components/MenuContent/MenuContent';
 
 function Home() {
   const [clickedItem, setClickedItem] = useState('Companies');
+
   return (
     <>
       <div className="home">

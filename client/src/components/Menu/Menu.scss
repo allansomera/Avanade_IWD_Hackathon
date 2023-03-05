@@ -1,12 +1,15 @@
 .menu {
-  &__menu-item {
-    font-weight: bold;
-    font-size: 1.5rem;
-    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    &__menu-item {
+        font-weight: bold;
+        font-size: 1.5rem;
+        cursor: pointer;
 
-    &--underlined {
-      @extend .profile-menu__menu-item;
-      text-decoration: underline;
+        &--underlined {
+            @extend .menu__menu-item;
+            text-decoration: underline;
+        }
     }
-  }
 }
