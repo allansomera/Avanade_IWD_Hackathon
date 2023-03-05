@@ -14,9 +14,7 @@ const MenuContent = ({ header }) => {
   return (
     <>
       <div className="menu-content">
-        <section className="menu-content__content-section">
-          {contentSection}
-        </section>
+        <section className="menu-content__content-section">{contentSection}</section>
       </div>
     </>
   );
