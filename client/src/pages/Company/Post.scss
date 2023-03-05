@@ -1,7 +1,7 @@
 .post{
     padding-top: 20px;
     width: 100%;
-    background-color: #d9d9d9;
+    background-color: #f7f7f7;
     // padding-left: 96px;
     // padding-right: 96px;
     &__header{
@@ -14,12 +14,12 @@
     }
     &__post-con{
         padding: 30px;
-        background-color: #d9d9d9;
+        background-color: #f7f7f7;
     }
     &__content{
         margin-bottom: 20px;
         padding: 30px;
-        background-color: #f7f7f7;
+        background-color: white;
         border-radius: 10px;
     }
     &__category-con {
