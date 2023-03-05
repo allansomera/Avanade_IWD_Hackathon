@@ -35,15 +35,15 @@ const Post = () => {
                 </div>
                 <div className="post__metrics-con">
                   <div className="post__likes-wrapper">
-                    <div className="post__likes-icon">up</div>
+                    <div className="post__likes-icon"></div>
                     <div className="post__likes-num">1000</div>
                   </div>
                   <div className="post__dislikes-wrapper">
-                    <div className="post__dislikes-icon">down</div>
+                    <div className="post__dislikes-icon"></div>
                     <div className="post__dislikes-num">1000</div>
                   </div>
                   <div className="post__replies-wrapper">
-                    <div className="post__replies-icon">r</div>
+                    <div className="post__replies-icon"></div>
                     <div className="post__dislikes-num">1000</div>
                   </div>
                 </div>
