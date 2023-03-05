@@ -1,0 +1,19 @@
+.company{
+
+    &__navbar{
+        padding-left: 16px;
+    }
+
+    &__navbar-item {
+        padding-right: 16px;
+    }
+
+    &__navbar-item > a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+}
+
+.nav-link.active {
+    text-decoration: underline;
+}
