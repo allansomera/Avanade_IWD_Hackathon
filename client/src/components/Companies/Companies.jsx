@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Companies.scss';
 import avanade from '../../assets/icons/Avanade Logo.png';
 import deloitte from '../../assets/icons/Deloitte Logo.png';
@@ -5,10 +6,8 @@ import bestbuy from '../../assets/icons/Best Buy Logo.png';
 import td from '../../assets/icons/TD Logo.png';
 import star from '../../assets/icons/star.svg';
 import hero from '../../assets/images/Image.png';
-import { useNagivate } from 'react-router-dom';
 
 const Companies = () => {
-  // const navigate = useNagivate();
   let arr = [
     {
       logo: avanade,
@@ -133,6 +132,11 @@ const Companies = () => {
                       <div className="card__description-con">
                         <div className="card__description-title">Description</div>
                         <div className="card__description-sub">{i['description']}</div>
+                      </div>
+                      <div className="card__view">
+                        <Link to="/company/overview" className="card__view-btn">
+                          View
+                        </Link>
                       </div>
                     </div>
                   </div>

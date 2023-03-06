@@ -52,7 +52,9 @@ const Step3 = () => {
           })}
         </div>
         <div className="step3__submit">
-          <Link className="step3__submit-btn">Submit</Link>
+          <Link to="/company/overview" className="step3__submit-btn">
+            Submit
+          </Link>
         </div>
       </div>
     </>
