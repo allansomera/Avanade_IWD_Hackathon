@@ -17,7 +17,7 @@ const EmployeeReviewItem = () => {
 		{ id: "1", name: "Equal Opportunities for Women and Men", image: icons1, score: "4.7" },
 		{
 			id: "2",
-			name: "Maternity & Adoptive Leavequal Opportunities for Women and Men",
+			name: "Maternity & Adoptive Leave",
 			image: icons2,
 			score: "5.0"
 		},

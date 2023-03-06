@@ -21,7 +21,7 @@ const Overview = () => {
 							<div className="overview__details__di">
 								<p className="overview__details__di-title">D&I</p>
 
-								<p className="overview__details__di-text">D&I</p>
+								<p className="overview__details__di-text">4.9</p>
 							</div>
 						</div>
 					</div>

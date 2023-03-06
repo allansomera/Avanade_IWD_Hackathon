@@ -52,6 +52,7 @@
 	&__star-rating-combo {
 		display: flex;
 		flex-direction: row;
+		gap: 5px;
 	}
 	&__r-header {
 		margin-right: 30px;
@@ -88,7 +89,9 @@
 	&__nav-item {
 		padding: 5px 20px;
 		margin-right: 10px;
-
+		font-size: 1.5rem;
+		font-weight: 600;
+		line-height: 1.875rem;
 		color: inherit;
 		text-decoration: inherit;
 		margin-bottom: 10px;
