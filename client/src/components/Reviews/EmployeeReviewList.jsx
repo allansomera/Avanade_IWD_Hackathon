@@ -1,4 +1,5 @@
 import React from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 import "./EmployeeReviewList.scss";
 
 import star from "../../assets/icons/star.svg";
@@ -13,6 +14,7 @@ const EmployeeReviewList = () => {
 	const Star = ({ rated }) => {
 		return <img src={star} alt="star" className={rated ? "star__icon-filled" : "star__icon"} />;
 	};
+	const navigate = useNavigate();
 
 	const category = [
 		{ id: "1", name: "Equal Opportunities for Women and Men", image: icons1, score: "4.7" },
@@ -68,7 +70,14 @@ const EmployeeReviewList = () => {
 					to work for. I started working here last year...
 				</p>
 				<div className="reviews__employee-cta">
-					<button className="reviews__employee-cta--btn">See All Reviews</button>
+					<button
+						className="reviews__employee-cta--btn"
+						onClick={() => {
+							navigate("/company/review");
+						}}
+					>
+						See All Reviews
+					</button>
 				</div>
 			</div>
 		</div>
