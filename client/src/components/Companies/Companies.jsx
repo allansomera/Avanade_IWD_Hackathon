@@ -5,7 +5,7 @@ import bestbuy from '../../assets/icons/Best Buy Logo.png';
 import td from '../../assets/icons/TD Logo.png';
 import star from '../../assets/icons/star.svg';
 import hero from '../../assets/images/Image.png';
-// import { useNagivate } from 'react-router-dom';
+import { useNagivate } from 'react-router-dom';
 
 const Companies = () => {
   // const navigate = useNagivate();

@@ -105,6 +105,17 @@ To get a local copy up and running follow these simple steps.
    npm i
    ```
 
+#### Running the dev script
+
+1. While still in the 'client' folder, execute the command below
+   ```sh
+   npm run dev
+   ```
+2. Go to your favourite browers and enter the URL
+   ```sh
+   http://localhost:5173/
+   ```
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
