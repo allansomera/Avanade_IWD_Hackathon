@@ -1,0 +1,98 @@
+.reviews {
+	width: 100%;
+	padding: 1.875rem;
+	background-color: #f7f7f7;
+
+	&__top {
+		border-left: 2px solid #4665f1;
+		padding-left: 1.875rem;
+		margin-bottom: 3.75rem;
+
+		&-title {
+			margin: 0;
+			font-size: 1.5rem;
+			font-weight: 700;
+			line-height: 1.875rem;
+		}
+
+		&__content {
+			display: flex;
+			gap: 1.25rem;
+		}
+	}
+
+	&__rating {
+		&-text {
+			font-size: 1.375rem;
+			font-weight: 600;
+			line-height: 1.7188rem;
+
+			&--thin {
+				font-size: 1.375rem;
+				font-weight: 400;
+				line-height: 1.7188rem;
+			}
+			&--thin2 {
+				font-size: 1.375rem;
+				font-weight: 400;
+				line-height: 1.7188rem;
+				margin-left: 0.3125rem;
+			}
+		}
+		&-iconlist {
+			list-style: none;
+			padding: 0;
+			display: flex;
+			gap: 1.0831rem;
+			align-items: center;
+		}
+	}
+
+	&__cardList {
+		width: 1005;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 50px 50px;
+
+		&-item {
+			background-color: #fdfdfd;
+			border: 1px solid #d9d9d9;
+			border-radius: 0.625rem;
+			padding: 2.5rem;
+
+			&--desc {
+				font-size: 1.375rem;
+				font-weight: 600;
+				width: 17.9375rem;
+			}
+
+			&--rating {
+				display: flex;
+				gap: 20px;
+
+				&-text {
+					font-size: 1.375rem;
+					font-weight: 400;
+					line-height: 1.7188rem;
+				}
+			}
+		}
+	}
+}
+
+.rating-icons {
+	height: 2.5rem;
+	width: 2.5rem;
+}
+.star__icon {
+	height: 1.3313rem;
+	width: 1.3313rem;
+	filter: invert(100%) sepia(21%) saturate(0%) hue-rotate(113deg) brightness(90%) contrast(93%);
+
+	&-filled {
+		height: 1.3313rem;
+		width: 1.3313rem;
+		filter: invert(54%) sepia(30%) saturate(1474%) hue-rotate(332deg) brightness(102%)
+			contrast(101%);
+	}
+}

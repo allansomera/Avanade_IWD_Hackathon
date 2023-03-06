@@ -1,0 +1,80 @@
+.salaries {
+	width: 100%;
+	&__hero {
+		display: flex;
+		gap: 30px;
+		justify-content: space-between;
+		&--right {
+			width: 70%;
+		}
+		&--left {
+			width: 20%;
+		}
+	}
+}
+
+.user {
+	background-color: #d9d9d9;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0.5rem;
+
+	&__image {
+		height: 9.625rem;
+		width: 9.625rem;
+		border-radius: 50%;
+		background-color: #ffff;
+	}
+}
+
+.categories {
+	&__company {
+		&__cards {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 28px 28px;
+		}
+		&__more {
+			text-align: right;
+			margin-top: 2.3125rem;
+			margin-bottom: 5.25rem;
+		}
+	}
+	&__position {
+		&__cards {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 28px 28px;
+		}
+
+		&__more {
+			text-align: right;
+			margin-top: 2.3125rem;
+			margin-bottom: 5.25rem;
+		}
+	}
+}
+
+.card {
+	&__company {
+		background-color: #d9d9d9;
+		display: flex;
+		justify-content: space-around;
+		// gap: 5px;
+
+		&__image {
+			height: 6.8125rem;
+			width: 109px;
+			border-radius: 50%;
+			background-color: #ffff;
+		}
+	}
+
+	&__position {
+		background-color: #d9d9d9;
+		padding: 2.8125rem 2.1875rem;
+	}
+}

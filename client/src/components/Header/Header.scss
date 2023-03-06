@@ -1,44 +1,54 @@
-.header{
-    padding-right: 5vw;
-    padding-left: 5vw;
-    display: flex;
-    justify-content: space-around;
-    width: 100vw;
-    
-    &__logo-con {
-        display: flex;
-        flex-direction: row;
-        // width: 100%;
-        align-items: center;
-        gap: 15px;
-    }
-    &__profile-pic {
-        width: 40px;
-        height: 40px;
-        background-color: #d9d9d9;
-        border-radius: 50%;
-    }
-    &__username {
-        color: black;
-    }
-    &__search-con{
-        display: flex;
-        justify-content: center;
-        // align-items: center;
-        width: 100%;
-        flex-grow: 1;
-    }
-    &__search-input{
-        width: 500px;
-    }
-    &__right-con{
-        display: flex;
-        flex-direction: row;
-        gap: 16px;
-    }
-    &__notify1, &__notify2 {
-        background-color: #d9d9d9;
-        width: 40px;
-        height: 40px;
-    }
+.header {
+	padding: 3.125rem 1.875rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+
+	&__logo {
+		display: flex;
+		flex-direction: row;
+		// width: 100%;
+		align-items: center;
+		gap: 15px;
+	}
+
+	&__search-con {
+		width: 50%;
+		height: 2.75rem;
+		border: none;
+	}
+	&__search-input {
+		background-image: url("../../assets/icons/Search\ Icon.png");
+		background-position: left;
+		background-position-x: 16px;
+		background-repeat: no-repeat;
+		background-color: #f7f7f7;
+		// background-size: auto;
+		height: 100%;
+		width: 100%;
+		padding: 0.8125rem 1rem 0.8125rem 3.3125rem;
+		border: 1px solid #d9d9d9;
+		border-radius: 10px;
+		&:focus {
+			outline: 1px solid #8b8b8b;
+		}
+
+		&::placeholder {
+			font-family: "Lexend", sans-serif;
+			font-size: 1.125rem;
+			font-weight: 200;
+			color: #8b8b8b;
+		}
+	}
+	&__right-con {
+		display: flex;
+		flex-direction: row;
+		gap: 26px;
+	}
+	&__notify1,
+	&__notify2 {
+		width: 40px;
+		height: 40px;
+	}
 }
