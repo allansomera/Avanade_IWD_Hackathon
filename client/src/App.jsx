@@ -8,6 +8,7 @@ import Company from './pages/Company/Company';
 import CompanyOverview from './pages/Home/CompanyOverview';
 import Post from './pages/Company/Post';
 import ReviewProcess from './pages/ReviewProcess/ReviewProcess';
+import CompanyReview from './pages/Company/CompanyReview';
 import Step1 from './pages/ReviewProcess/step1';
 import Step2 from './pages/ReviewProcess/step2';
 import Step3 from './pages/ReviewProcess/step3';
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="/company" element={<Company />}>
               <Route path="overview" element={<CompanyOverview />} />
               <Route path="post" element={<Post />} />
+              <Route path="review" element={<CompanyReview />} />
             </Route>
             <Route path="process" element={<ReviewProcess />}>
               <Route path="rate-step1" element={<Step1 />} />
