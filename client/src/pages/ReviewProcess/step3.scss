@@ -4,6 +4,10 @@
     padding-left: 5vw;
     padding-right: 5vw;
 
+    &__progress-con{
+        padding-bottom: 24px;
+    }
+
     &__heading{
         font-size: 24px;
         font-weight: 700;
@@ -58,5 +62,28 @@
         contrast(101%);
     }
 
+    &__submit{
+        margin-top: 48px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 48px;
+    }
+    &__submit-btn{
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #4666f1;
+        color: white;
+        width: 188px;
+        height: 45px;
+        border-radius: 5px;
+        &:visited{
+            color:white;
+        }
+    }
 }
 
