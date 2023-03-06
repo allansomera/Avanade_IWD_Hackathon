@@ -1,0 +1,129 @@
+.reviews {
+	&__employee {
+		width: 100%;
+		padding: 1.875rem;
+		background-color: #f7f7f7;
+
+		&-container {
+			background-color: #fdfdfd;
+			border: 1px solid #d9d9d9;
+			border-radius: 0.625rem;
+			padding: 2.5rem;
+		}
+
+		&-status {
+			font-size: 1.125rem;
+			font-weight: 400;
+			line-height: 1.4063rem;
+		}
+
+		&-title {
+			font-size: 1.125rem;
+			font-weight: 700;
+			line-height: 1.4063rem;
+			&--thin {
+				font-weight: 400;
+			}
+		}
+
+		&-rating {
+			display: flex;
+			gap: 20px;
+
+			&--text {
+				margin: 0;
+				font-size: 1.375rem;
+				font-weight: 400;
+				line-height: 1.7188rem;
+			}
+		}
+
+		&-score {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 24px 40px;
+
+			&--container {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+			&--desc {
+				font-size: 1.125rem;
+				font-weight: 400;
+				line-height: 1.4063rem;
+			}
+
+			&--right {
+				display: flex;
+
+				align-items: center;
+				gap: 10px;
+
+				&-text {
+					font-size: 1.125rem;
+					font-weight: 400;
+					line-height: 1.4063rem;
+				}
+			}
+			&--left {
+				display: flex;
+				align-items: center;
+				gap: 20px;
+			}
+		}
+
+		&-review {
+			&--title {
+				font-size: 1.5rem;
+				font-weight: 700;
+				line-height: 1.875rem;
+			}
+
+			&--text {
+				font-size: 1.125rem;
+				font-weight: 400;
+				line-height: 1.4063rem;
+			}
+		}
+
+		&-cta {
+			display: flex;
+			justify-content: right;
+			&--btn {
+				background-color: #4665f1;
+				color: #fdfdfd;
+				min-width: 14.125rem;
+				height: 3.75rem;
+				padding: 0.9375rem 1.25rem;
+				font-size: 1.5rem;
+				font-weight: 600;
+				line-height: 1.875rem;
+			}
+		}
+	}
+
+	&__rating {
+		&-iconlist {
+			margin: 0;
+		}
+	}
+}
+
+.rating-icons {
+	height: 2.5rem;
+	width: 2.5rem;
+}
+.star__icon {
+	height: 1.3313rem;
+	width: 1.3313rem;
+	filter: invert(100%) sepia(21%) saturate(0%) hue-rotate(113deg) brightness(90%) contrast(93%);
+
+	&-filled {
+		height: 1.3313rem;
+		width: 1.3313rem;
+		filter: invert(54%) sepia(30%) saturate(1474%) hue-rotate(332deg) brightness(102%)
+			contrast(101%);
+	}
+}
